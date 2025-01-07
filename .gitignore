@@ -1,0 +1,28 @@
+# Ignore generated files
+*.rdb
+*.p
+*.pyc
+*.log
+*dialogflow-keyfile.json
+*.egg-info/
+*.pt
+*.venv
+# Keep some folders
+!.keepme
+
+# Ignore Eclipse/Pycharm stuff
+.buildpath
+.project
+.settings
+.idea
+git fetch origin
+
+
+# Ignore egg files
+sic_framework.egg-info/
+
+sic_framework/services/face_recognition_dnn/resnet50_ft_weight_old.pt
+
+# Ignore build folder
+build
+
